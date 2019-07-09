@@ -1,0 +1,8 @@
+#ABNF 1.0 UTF-8;
+language zh-CN; 
+mode voice;
+
+root $main;
+$main = $place1 到 $place2;
+$place1 = 普宁|广州|深圳|北京|上海;
+$place2 = 中山|佛山;
